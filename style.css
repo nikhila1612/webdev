@@ -1,0 +1,72 @@
+
+@import url('http://fonts.cdnfonts.com/css/digital-7-mono');
+
+body{
+    background: linear-gradient(to left, #ED4264, #FFEDBC);
+    font-size: 30px;
+}
+.align{
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.circle{
+    width: 15em;
+    height: 15em;
+    background-image: url(5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 4px 8px black ;
+    border-radius: 100%;
+    top:50%;
+    left: 50%;
+    
+
+}
+
+#screen{
+    width: 60%;
+    height: 10%;
+    background-color: #FF8921;
+    border: white solid 5px;
+    color: yellow;
+    top:30%;
+    left: 50%;
+    text-align: right;
+    font-family: 'Digital-7 Mono', sans-serif;
+    padding: 10px;
+    position: relative;
+    box-shadow: 1px 2px 4px white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 40px;
+  
+}
+button{
+
+    height: 20%;
+    width: 20%;
+    background-color:#FF002E ;
+    border-radius: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    border-color: #9C0505;
+}
+.add{
+    top: 60%;
+    left: 25%;
+}
+.sub{
+    top: 60%;
+    left: 75%;
+}
+.reset{
+
+    top: 75%;
+    left: 50%;
+}
+
+button:hover{
+color: white;
+background-color: #FFE934;
+text-shadow: 2px 2px 3px black;
+border-color: white;
+}
